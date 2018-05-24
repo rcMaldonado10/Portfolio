@@ -1,0 +1,17 @@
+.headings {
+  color: white;
+  text-align: center;
+}
+
+.form {
+    text-align: center;
+    width: 70%;
+}
+
+.inputs {
+    color: white;
+}
+
+.inputs:focus {
+    border-bottom-color: red;
+}

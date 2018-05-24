@@ -1,0 +1,106 @@
+<!--Navbar-->
+<nav class="navbar fixed-top navbar-expand-lg navbar-dark red">
+
+  <!-- Navbar brand -->
+  <span class="navbar-brand">The Shack</span>
+
+  <!-- Collapse button -->
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+    aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <!-- Collapsible content -->
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+    <!-- Links -->
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" routerLink="" routerLinkActive="active">About Me</a>
+      </li>
+      <!-- <li class="nav-item">
+        <a class="nav-link" routerLink="/contact" routerLinkActive="active">Contact</a>
+      </li> -->
+      <li class="nav-item active">
+        <a class="nav-link" routerLink="/projects" routerLinkActive="active">Projects</a>
+      </li>
+    </ul>
+    <!-- Links -->
+  </div>
+  <!-- Collapsible content -->
+</nav>
+<!--/.Navbar-->
+
+<div class="container" style="margin-top: 75px;">
+  <div class="card grey lighten-4">
+    <h1 class="headings card-title" style="margin-top: 20px;"><b>Projects</b></h1>
+
+    <h4 class="headings card-title" style="margin-top: 20px; margin-bottom:20px;"><b>iOS App</b></h4>
+    <div class="container-fluid" style="width: 80%;">
+      <div class="container-fluid">
+        <p class="headings card-text" style="text-align: justify;">
+          Native application using Swift as the language. There is also communication with a MySQL database through a REST API in PHP.
+        </p>
+      </div>
+    </div>
+
+    <h4 class="headings card-title" style="margin-top: 20px; margin-bottom:20px;"><b>Guarida Lobo</b></h4>
+
+    <div class="container-fluid" style="width: 80%;">
+      <div class="container-fluid">
+        <img class="img-fluid images" style="float: left;" src="../assets/images/GuaridaLogin.png" />
+        <img class="img-fluid images" style="float: right;" src="../assets/images/GuaridaHome.png" />
+      </div>
+    </div>
+    <div class="container-fluid" style="width: 80%;">
+      <br>
+      <div class="container-fluid">
+        <p class="headings card-text" style="text-align: justify;">
+          Project created to improve the reservation of study rooms in the library of the
+          <a class="red-text" href="http://www.upra.edu">University of Puerto Rico in Arecibo (UPRA).</a>
+          This project lets student make reservations check the availability of a study room and make reservations of one of them.
+        </p>
+      </div>
+      <!-- <div align="center">
+        <button class="btn btn-danger" (click)="seeMoreGuarida()">See More</button>
+      </div> -->
+    </div>
+
+    <h4 class="headings card-title" style="margin-top: 20px; margin-bottom: 20px;"><b>Biology Dogma</b></h4>
+    <div class="container-fluid" style="width: 80%;">
+      <div class="container-fluid">
+        <img class="img-fluid images" style="float: left;" src="../assets/images/BD-Intro.PNG" />
+      </div>
+      <div class="container-fluid">
+        <img class="img-fluid images" style="float: right;" src="../assets/images/BD-Play.PNG" />
+      </div>
+    </div>
+    <div class="container-fluid" style="width: 80%;">
+      <br>
+      <div class="container-fluid" style="margin-bottom: 20px;">
+        <p class="headings card-text" style="text-align: justify;">
+          This is a cross platform application that runs on both iOS and Android, developed using the
+          <a class="red-text" href="https://www.nativescript.org">NativeScript</a> framework. 
+          This app helps biology students from UPRA to understand the structure of the DNA and
+          its replication process.
+        </p>
+      </div>
+      <!-- <div align="center">
+        <button class="btn btn-danger" (click)="seeMoreBiologyDogma()">See More</button>
+      </div> -->
+    </div>
+  </div>
+</div>
+
+<footer class="page-footer red center-on-small-only">
+
+  <div class="container" align="center">
+    <h5>Rafael E. Colón Maldonado</h5>
+    <p>Programmer, Musician and Coffee Lover</p>
+  </div>
+  <div class="footer-copyright">
+    <div class="container-fluid">
+      <p>The Shack © 2018, All rights reserved</p>
+    </div>
+  </div>
+</footer>
